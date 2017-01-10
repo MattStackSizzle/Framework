@@ -1,0 +1,24 @@
+$md-menu-bg: #F4F4F4;
+$md-menu-link-color: $primary-color;
+$md-menu-link-hover-color: $secondary-color;
+$md-logo-width: 155px;
+$md-nav-font-size: 18px;
+/*NAV*/
+.md .top-bar,
+.md .top-bar ul,
+.md-header-wrapper {
+    background-color: $md-menu-bg;
+}
+
+.md .md-menu-logo img {
+    width: $md-logo-width;
+}
+
+.md .menu a {
+    color: $md-menu-link-color;
+    font-size: $md-nav-font-size;
+}
+
+.md .menu a:hover {
+    color: $md-menu-link-hover-color;
+}

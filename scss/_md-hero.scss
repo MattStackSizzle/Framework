@@ -1,0 +1,40 @@
+.md-hero {
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    align-items: center;
+    @include breakpoint(small) {}
+    @include breakpoint(medium) {}
+    @include breakpoint(large) {}
+}
+
+.md-hero img {
+  min-width:100%;
+}
+
+.md-hero-text-wrapper {
+    background-color: rgba(255, 255, 255, 0.46);
+    position: absolute;
+    max-width: 800px;
+    padding: $global-padding;
+    @include vertical-align(absolute);
+    margin-left: 16%;
+}
+
+.md-hero-buttons a {
+    margin-top: 15px;
+}
